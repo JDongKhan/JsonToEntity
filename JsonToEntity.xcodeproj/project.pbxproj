@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D53BE321BDE269000A385BE /* HsBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D53BE2F1BDE269000A385BE /* HsBaseEntity.m */; settings = {ASSET_TAGS = (); }; };
+		4D53BE331BDE269000A385BE /* NSObject+dictionaryToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D53BE311BDE269000A385BE /* NSObject+dictionaryToModel.m */; settings = {ASSET_TAGS = (); }; };
+		4D53BE391BDE27EB00A385BE /* HsBaseFetchedResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D53BE381BDE27EB00A385BE /* HsBaseFetchedResults.m */; settings = {ASSET_TAGS = (); }; };
 		4DB691531A54F3C700D0B4DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB691521A54F3C700D0B4DB /* main.m */; };
-		4DB6915D1A54F3F400D0B4DB /* HsBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6915A1A54F3F400D0B4DB /* HsBaseEntity.m */; };
-		4DB6915E1A54F3F400D0B4DB /* HsBaseEntity+entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6915C1A54F3F400D0B4DB /* HsBaseEntity+entity.m */; };
 		4DB691611A54F41B00D0B4DB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB691601A54F41B00D0B4DB /* User.m */; };
 		4DB691641A54F42B00D0B4DB /* Dept.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB691631A54F42B00D0B4DB /* Dept.m */; };
 		4DB691671A54F46900D0B4DB /* Compay.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB691661A54F46900D0B4DB /* Compay.m */; };
@@ -28,12 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D53BE2E1BDE269000A385BE /* HsBaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsBaseEntity.h; sourceTree = "<group>"; };
+		4D53BE2F1BDE269000A385BE /* HsBaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsBaseEntity.m; sourceTree = "<group>"; };
+		4D53BE301BDE269000A385BE /* NSObject+dictionaryToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+dictionaryToModel.h"; sourceTree = "<group>"; };
+		4D53BE311BDE269000A385BE /* NSObject+dictionaryToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+dictionaryToModel.m"; sourceTree = "<group>"; };
+		4D53BE371BDE27EB00A385BE /* HsBaseFetchedResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsBaseFetchedResults.h; sourceTree = "<group>"; };
+		4D53BE381BDE27EB00A385BE /* HsBaseFetchedResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsBaseFetchedResults.m; sourceTree = "<group>"; };
 		4DB6914F1A54F3C700D0B4DB /* JsonToEntity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JsonToEntity; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB691521A54F3C700D0B4DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4DB691591A54F3F400D0B4DB /* HsBaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsBaseEntity.h; sourceTree = "<group>"; };
-		4DB6915A1A54F3F400D0B4DB /* HsBaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsBaseEntity.m; sourceTree = "<group>"; };
-		4DB6915B1A54F3F400D0B4DB /* HsBaseEntity+entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HsBaseEntity+entity.h"; sourceTree = "<group>"; };
-		4DB6915C1A54F3F400D0B4DB /* HsBaseEntity+entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HsBaseEntity+entity.m"; sourceTree = "<group>"; };
 		4DB6915F1A54F41B00D0B4DB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		4DB691601A54F41B00D0B4DB /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		4DB691621A54F42B00D0B4DB /* Dept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dept.h; sourceTree = "<group>"; };
@@ -72,10 +75,12 @@
 		4DB691511A54F3C700D0B4DB /* JsonToEntity */ = {
 			isa = PBXGroup;
 			children = (
-				4DB691591A54F3F400D0B4DB /* HsBaseEntity.h */,
-				4DB6915A1A54F3F400D0B4DB /* HsBaseEntity.m */,
-				4DB6915B1A54F3F400D0B4DB /* HsBaseEntity+entity.h */,
-				4DB6915C1A54F3F400D0B4DB /* HsBaseEntity+entity.m */,
+				4D53BE371BDE27EB00A385BE /* HsBaseFetchedResults.h */,
+				4D53BE381BDE27EB00A385BE /* HsBaseFetchedResults.m */,
+				4D53BE2E1BDE269000A385BE /* HsBaseEntity.h */,
+				4D53BE2F1BDE269000A385BE /* HsBaseEntity.m */,
+				4D53BE301BDE269000A385BE /* NSObject+dictionaryToModel.h */,
+				4D53BE311BDE269000A385BE /* NSObject+dictionaryToModel.m */,
 				4DB691521A54F3C700D0B4DB /* main.m */,
 				4DB6915F1A54F41B00D0B4DB /* User.h */,
 				4DB691601A54F41B00D0B4DB /* User.m */,
@@ -144,11 +149,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB691641A54F42B00D0B4DB /* Dept.m in Sources */,
+				4D53BE321BDE269000A385BE /* HsBaseEntity.m in Sources */,
+				4D53BE391BDE27EB00A385BE /* HsBaseFetchedResults.m in Sources */,
+				4D53BE331BDE269000A385BE /* NSObject+dictionaryToModel.m in Sources */,
 				4DB691611A54F41B00D0B4DB /* User.m in Sources */,
 				4DB691671A54F46900D0B4DB /* Compay.m in Sources */,
-				4DB6915D1A54F3F400D0B4DB /* HsBaseEntity.m in Sources */,
 				4DB691531A54F3C700D0B4DB /* main.m in Sources */,
-				4DB6915E1A54F3F400D0B4DB /* HsBaseEntity+entity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +268,7 @@
 				4DB691581A54F3C700D0B4DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
