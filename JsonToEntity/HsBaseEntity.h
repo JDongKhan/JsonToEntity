@@ -1,19 +1,14 @@
 //
 //  HsBaseEntity.h
-//  JsonToEntity
+//  hospitalcloud_sdzy
 //
-//  Created by 王金东 on 15/1/1.
-//  Copyright (c) 2015年 王金东. All rights reserved.
+//  Created by 123 on 14-6-13.
+//  Copyright (c) 2014年 chenjiong. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "NSObject+dictionaryToModel.h"
 
 @interface HsBaseEntity : NSObject
-
-//设置数组变量后缀
-@property (nonatomic,strong) NSString *arraySuffix;
-
-//测试用
-@property (nonatomic,assign) NSInteger pageSize;
 
 @end

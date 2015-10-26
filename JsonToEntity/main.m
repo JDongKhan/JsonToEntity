@@ -10,7 +10,7 @@
 #import "Dept.h"
 #import "User.h"
 #import "Compay.h"
-#import "HsBaseEntity+entity.h"
+#import "NSObject+dictionaryToModel.h"
 
 
 void test1()
