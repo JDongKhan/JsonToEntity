@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D53BE321BDE269000A385BE /* HsBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D53BE2F1BDE269000A385BE /* HsBaseEntity.m */; settings = {ASSET_TAGS = (); }; };
-		4D53BE331BDE269000A385BE /* NSObject+dictionaryToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D53BE311BDE269000A385BE /* NSObject+dictionaryToModel.m */; settings = {ASSET_TAGS = (); }; };
-		4D53BE391BDE27EB00A385BE /* HsBaseFetchedResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D53BE381BDE27EB00A385BE /* HsBaseFetchedResults.m */; settings = {ASSET_TAGS = (); }; };
-		4DB691531A54F3C700D0B4DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB691521A54F3C700D0B4DB /* main.m */; };
-		4DB691611A54F41B00D0B4DB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB691601A54F41B00D0B4DB /* User.m */; };
-		4DB691641A54F42B00D0B4DB /* Dept.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB691631A54F42B00D0B4DB /* Dept.m */; };
-		4DB691671A54F46900D0B4DB /* Compay.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB691661A54F46900D0B4DB /* Compay.m */; };
+		4D53BE321BDE269000A385BE /* HsBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D53BE2F1BDE269000A385BE /* HsBaseEntity.m */; };
+		4D53BE331BDE269000A385BE /* NSObject+dictionaryToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D53BE311BDE269000A385BE /* NSObject+dictionaryToModel.m */; };
+		4D53BE391BDE27EB00A385BE /* HsBaseFetchedResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D53BE381BDE27EB00A385BE /* HsBaseFetchedResults.m */; };
+		4DA9DCC01BDF618100AE5BEF /* Compay.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9DCBA1BDF618100AE5BEF /* Compay.m */; };
+		4DA9DCC11BDF618100AE5BEF /* Dept.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9DCBC1BDF618100AE5BEF /* Dept.m */; };
+		4DA9DCC21BDF618100AE5BEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9DCBD1BDF618100AE5BEF /* main.m */; };
+		4DA9DCC31BDF618100AE5BEF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9DCBF1BDF618100AE5BEF /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,14 +35,14 @@
 		4D53BE311BDE269000A385BE /* NSObject+dictionaryToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+dictionaryToModel.m"; sourceTree = "<group>"; };
 		4D53BE371BDE27EB00A385BE /* HsBaseFetchedResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsBaseFetchedResults.h; sourceTree = "<group>"; };
 		4D53BE381BDE27EB00A385BE /* HsBaseFetchedResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsBaseFetchedResults.m; sourceTree = "<group>"; };
+		4DA9DCB91BDF618100AE5BEF /* Compay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compay.h; sourceTree = "<group>"; };
+		4DA9DCBA1BDF618100AE5BEF /* Compay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compay.m; sourceTree = "<group>"; };
+		4DA9DCBB1BDF618100AE5BEF /* Dept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dept.h; sourceTree = "<group>"; };
+		4DA9DCBC1BDF618100AE5BEF /* Dept.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dept.m; sourceTree = "<group>"; };
+		4DA9DCBD1BDF618100AE5BEF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DA9DCBE1BDF618100AE5BEF /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		4DA9DCBF1BDF618100AE5BEF /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		4DB6914F1A54F3C700D0B4DB /* JsonToEntity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JsonToEntity; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DB691521A54F3C700D0B4DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4DB6915F1A54F41B00D0B4DB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		4DB691601A54F41B00D0B4DB /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		4DB691621A54F42B00D0B4DB /* Dept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dept.h; sourceTree = "<group>"; };
-		4DB691631A54F42B00D0B4DB /* Dept.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dept.m; sourceTree = "<group>"; };
-		4DB691651A54F46900D0B4DB /* Compay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compay.h; sourceTree = "<group>"; };
-		4DB691661A54F46900D0B4DB /* Compay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DA9DCB81BDF618100AE5BEF /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				4DA9DCB91BDF618100AE5BEF /* Compay.h */,
+				4DA9DCBA1BDF618100AE5BEF /* Compay.m */,
+				4DA9DCBB1BDF618100AE5BEF /* Dept.h */,
+				4DA9DCBC1BDF618100AE5BEF /* Dept.m */,
+				4DA9DCBD1BDF618100AE5BEF /* main.m */,
+				4DA9DCBE1BDF618100AE5BEF /* User.h */,
+				4DA9DCBF1BDF618100AE5BEF /* User.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
 		4DB691461A54F3C700D0B4DB = {
 			isa = PBXGroup;
 			children = (
+				4DA9DCB81BDF618100AE5BEF /* demo */,
 				4DB691511A54F3C700D0B4DB /* JsonToEntity */,
 				4DB691501A54F3C700D0B4DB /* Products */,
 			);
@@ -81,13 +96,6 @@
 				4D53BE2F1BDE269000A385BE /* HsBaseEntity.m */,
 				4D53BE301BDE269000A385BE /* NSObject+dictionaryToModel.h */,
 				4D53BE311BDE269000A385BE /* NSObject+dictionaryToModel.m */,
-				4DB691521A54F3C700D0B4DB /* main.m */,
-				4DB6915F1A54F41B00D0B4DB /* User.h */,
-				4DB691601A54F41B00D0B4DB /* User.m */,
-				4DB691621A54F42B00D0B4DB /* Dept.h */,
-				4DB691631A54F42B00D0B4DB /* Dept.m */,
-				4DB691651A54F46900D0B4DB /* Compay.h */,
-				4DB691661A54F46900D0B4DB /* Compay.m */,
 			);
 			path = JsonToEntity;
 			sourceTree = "<group>";
@@ -148,13 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB691641A54F42B00D0B4DB /* Dept.m in Sources */,
+				4DA9DCC11BDF618100AE5BEF /* Dept.m in Sources */,
+				4DA9DCC31BDF618100AE5BEF /* User.m in Sources */,
+				4DA9DCC01BDF618100AE5BEF /* Compay.m in Sources */,
 				4D53BE321BDE269000A385BE /* HsBaseEntity.m in Sources */,
 				4D53BE391BDE27EB00A385BE /* HsBaseFetchedResults.m in Sources */,
+				4DA9DCC21BDF618100AE5BEF /* main.m in Sources */,
 				4D53BE331BDE269000A385BE /* NSObject+dictionaryToModel.m in Sources */,
-				4DB691611A54F41B00D0B4DB /* User.m in Sources */,
-				4DB691671A54F46900D0B4DB /* Compay.m in Sources */,
-				4DB691531A54F3C700D0B4DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
