@@ -6,6 +6,8 @@
 
 例子
 一、
+--------------------------------
+```c
 NSDictionary *dic = @{
     @"id":@"1234",
     @"name":@"金融"
@@ -13,7 +15,10 @@ NSDictionary *dic = @{
 
 Dept *dept = [Dept objectWithData:dic];
 NSLog(@"%@",dept.name);
+```
 二、
+--------------------------------
+```c
 NSDictionary *dic = @{
     @"id":@"123",
     @"name":@"wjd",
@@ -26,8 +31,10 @@ NSDictionary *dic = @{
 
 User *user = [User objectWithData:dic];
 NSLog(@"id:%d,sex:%@,name:%@ ,isRegister:%d, deptName:%@",user.ID,user.sexString,user.name,user.isRegister,user.dept.name);
+```
 三、
-
+--------------------------------
+```c
 NSDictionary *dic = @{
     @"compayName":@"hs",
     @"userArray":@[
@@ -42,3 +49,4 @@ Compay *compay = [Compay objectWithData:dic];
 User *user = compay.userArray[0];
 
 NSLog(@"copmayName:%@,第一个用户信息：name-%@,sex-%@,deptname:%@",compay.compayName,user.name,user.sexString,user.dept.name);
+```
