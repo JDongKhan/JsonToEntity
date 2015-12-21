@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = 'JsonToEntity'
   spec.version      = '1.0.0'
-  spec.summary      = 'hs'
+  spec.summary      = 'jsonToEntity'
   spec.homepage     = 'https://github.com/wangjindong/JsonToEntity'
   spec.license      = 'MIT'
   #spec.license = { :type => 'MIT', :file => 'FILE_LICENSE' }
