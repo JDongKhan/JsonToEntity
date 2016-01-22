@@ -2,8 +2,8 @@
 //  HsBaseEntity.m
 //  hospitalcloud_sdzy
 //
-//  Created by 123 on 14-6-13.
-//  Copyright (c) 2014年 chenjiong. All rights reserved.
+//  Created by wjd on 14-6-13.
+//  Copyright (c) 2014年 wjd. All rights reserved.
 //
 
 #import "HsBaseEntity.h"
@@ -24,11 +24,15 @@
     if([@"id" isEqualToString:key]){
         [self setValue:value forKey:@"ID"];
     }else{
+    #ifdef DEBUG
         NSLog(@"%@： undefinedKey:%@",NSStringFromClass([self class]),key);
+    #endif
     }
 }
 - (id)valueForUndefinedKey:(NSString *)key{
-    NSLog(@"%@ undefinedKey:%@",NSStringFromClass([self class]),key);
+    #ifdef DEBUG
+        NSLog(@"%@ undefinedKey:%@",NSStringFromClass([self class]),key);
+    #endif
     return nil;
 }
 //- (NSString *)descriptionWithLocale:(id)locale

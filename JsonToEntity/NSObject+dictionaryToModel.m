@@ -21,7 +21,7 @@ static const void *keyModelForMapping = &keyModelForMapping;
 - (NSString *)defaultArraySuffix {
     NSString *arraySuffix = objc_getAssociatedObject(self, keyModelForArray);
     if (arraySuffix == nil) {
-        return @"Array";
+        return @"List";
     }
     return arraySuffix;
 }
@@ -41,18 +41,18 @@ static const void *keyModelForMapping = &keyModelForMapping;
     }else if([data isKindOfClass:[NSArray class]]){
         return [self arrayToEntity:data];
     }
-    return [self newObjectInstance];
+    return nil;
 }
 
 + (void)objectWithData:(id)data completionBlock:(void(^)(id result))completionBlock{
     dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         id result = [self objectWithData:data];
-        if(completionBlock != nil){
-            dispatch_async( dispatch_get_main_queue(), ^{
+         if(completionBlock != nil){
+            dispatch_async(dispatch_get_main_queue(), ^{
                 completionBlock(result);
-            } );
-        }
-    } );
+            });
+         }
+    });
 }
 
 + (instancetype)newObjectInstance {
@@ -84,7 +84,7 @@ static const void *keyModelForMapping = &keyModelForMapping;
         if ([value isKindOfClass:[NSNull class]]) {
             return;
         }
-
+        
         if([value isKindOfClass:[NSArray class]]){//判断该属性的值是不是数组
             Class objectClass = nil;
             if([self exsitWithKey:key]){//判断key是否存在
@@ -120,7 +120,7 @@ static const void *keyModelForMapping = &keyModelForMapping;
             [self setValue:value forKey:key];
         }
         @catch (NSException *exception) {
-            NSLog(@"字段set%@方法出错",key);
+            HSLog(@"字段set%@方法出错",key);
         }
         @finally {
             
