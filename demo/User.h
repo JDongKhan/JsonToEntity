@@ -14,9 +14,9 @@
 
 @property (nonatomic,assign) int ID;
 
-@property (nonatomic,strong) NSString *name;
+@property (nonatomic,copy) NSString *name;
 
-@property (nonatomic,strong) NSString *sexString;
+@property (nonatomic,copy) NSString *sexString;
 
 @property (nonatomic,assign) int sex;
 

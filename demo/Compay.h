@@ -11,8 +11,8 @@
 
 @interface Compay : HsBaseEntity
 
-@property (nonatomic,strong) NSString *compayName;
+@property (nonatomic,copy) NSString *compayName;
 
-@property (nonatomic,strong) NSArray *userArray;
+@property (nonatomic,copy) NSArray *userArray;
 
 @end
