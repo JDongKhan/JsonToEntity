@@ -18,7 +18,7 @@
  *
  */
 
-@property (nonatomic,strong) NSString *defaultArraySuffix;
+@property (nonatomic, copy) NSString *defaultArraySuffix;
 
 /**
  *  @author wangjindong, 15-07-06 15:07:08
@@ -29,7 +29,7 @@
  *
  *  @since
  */
-@property (nonatomic,strong) NSDictionary *objectClassInMapping;
+@property (nonatomic, copy) NSDictionary *objectClassInMapping;
 
 /**
  *	@brief	同步解析

@@ -38,19 +38,19 @@ typedef void(^BaseFetchedResultDataChangeBlock)(BOOL changed);
 @interface HsBaseFetchedResults : NSObject
 
 //排序条件
-@property (nonatomic,strong) NSArray *sortDescriptors;
+@property (nonatomic, copy) NSArray *sortDescriptors;
 //过滤条件
-@property (nonatomic,strong) NSPredicate *predicate;
+@property (nonatomic, strong) NSPredicate *predicate;
 
 //coreData 文件名称
-@property (nonatomic,strong) NSString *momdName;
-@property (nonatomic,strong) NSBundle *bundle;
+@property (nonatomic, copy) NSString *momdName;
+@property (nonatomic, strong) NSBundle *bundle;
 
 //数据库名称
-@property (nonatomic,strong) NSString *sqliteName;
+@property (nonatomic, copy) NSString *sqliteName;
 
 //实体名称
-@property (nonatomic,strong) NSString *entityName;
+@property (nonatomic, copy) NSString *entityName;
 
 //设置默认文件名称  也就是momdName不设置会使用该值
 + (void)setDefaultMomdName:(NSString *)momdName;
