@@ -59,6 +59,19 @@ void test3(){
     NSLog(@"copmayName:%@,第一个用户信息：name-%@,sex-%@,deptname:%@",compay.compayName,user.name,user.sexString,user.dept.name);
 }
 
+void test4(){
+    NSMutableArray *array = [NSMutableArray array];
+    long last = [[NSDate date] timeIntervalSince1970];
+    for(int i = 0 ;i < 10000;i++){
+        Dept *dept = [Dept objectWithData:@{
+                                            @"id":@"1234",
+                                            @"name":@"金融"
+                                            }];
+        [array addObject:dept];
+    }
+    long now = [[NSDate date] timeIntervalSince1970];
+    NSLog(@"%ld",(now-last));
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {

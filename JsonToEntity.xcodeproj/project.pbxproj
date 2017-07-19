@@ -14,6 +14,7 @@
 		4DA9DCC11BDF618100AE5BEF /* Dept.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9DCBC1BDF618100AE5BEF /* Dept.m */; };
 		4DA9DCC21BDF618100AE5BEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9DCBD1BDF618100AE5BEF /* main.m */; };
 		4DA9DCC31BDF618100AE5BEF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9DCBF1BDF618100AE5BEF /* User.m */; };
+		4DC961521F05DF57004AABD2 /* UserDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC961511F05DF57004AABD2 /* UserDB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		4DA9DCBE1BDF618100AE5BEF /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		4DA9DCBF1BDF618100AE5BEF /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		4DB6914F1A54F3C700D0B4DB /* JsonToEntity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JsonToEntity; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC961501F05DF57004AABD2 /* UserDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDB.h; sourceTree = "<group>"; };
+		4DC961511F05DF57004AABD2 /* UserDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				4DA9DCBD1BDF618100AE5BEF /* main.m */,
 				4DA9DCBE1BDF618100AE5BEF /* User.h */,
 				4DA9DCBF1BDF618100AE5BEF /* User.m */,
+				4DC961501F05DF57004AABD2 /* UserDB.h */,
+				4DC961511F05DF57004AABD2 /* UserDB.m */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC961521F05DF57004AABD2 /* UserDB.m in Sources */,
 				4DA9DCC11BDF618100AE5BEF /* Dept.m in Sources */,
 				4DA9DCC31BDF618100AE5BEF /* User.m in Sources */,
 				4DA9DCC01BDF618100AE5BEF /* Compay.m in Sources */,
